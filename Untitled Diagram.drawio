@@ -1,17 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T17:15:06.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uAhbSx6dZ2IXYjHZNQcD" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T17:19:48.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="iMarxCxPhKasGRyPy9pW" version="20.2.5" type="github">
   <diagram id="VJnXxXQiTpYP_bpo054l" name="Page-1">
-    <mxGraphModel dx="861" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1148" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bDKs04fN_YBLQlZzfWPG-7" value="objetoGeográfico" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="45" y="50" width="150" height="100" as="geometry" />
+          <mxGeometry x="255" y="220" width="150" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bDKs04fN_YBLQlZzfWPG-8" value="+ID:int&#xa;+municipio:string&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bDKs04fN_YBLQlZzfWPG-7">
           <mxGeometry y="26" width="150" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="bDKs04fN_YBLQlZzfWPG-13" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="250" width="160" height="260" as="geometry" />
+        <mxCell id="bDKs04fN_YBLQlZzfWPG-23" value="&amp;laquo;interface&amp;raquo;&lt;br&gt;&lt;b&gt;Name&lt;/b&gt;" style="html=1;" vertex="1" parent="bDKs04fN_YBLQlZzfWPG-7">
+          <mxGeometry y="100" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bDKs04fN_YBLQlZzfWPG-13" value="cuerpoDeAgua" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="160" height="260" as="geometry" />
         </mxCell>
         <mxCell id="bDKs04fN_YBLQlZzfWPG-14" value="+ nombre: type&#xa;+ IRCA: type&#xa;+ tipoDeCuerpoDeAgua: type&#xa;+ tipoAgua:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bDKs04fN_YBLQlZzfWPG-13">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
@@ -22,14 +25,14 @@
         <mxCell id="bDKs04fN_YBLQlZzfWPG-16" value="+ niveles(): String&#xa;+ getnombre():String&#xa;+ gettipoCuerpoDeAgua:String&#xa;+ gettipoAgua:String&#xa;+ getIRCA:float&#xa;+ setnombre():String: void&#xa;+ settipoCuerpoDeAgua: void&#xa;+ settipoAgua: void&#xa;+ setIRCA: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bDKs04fN_YBLQlZzfWPG-13">
           <mxGeometry y="120" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="bDKs04fN_YBLQlZzfWPG-17" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bDKs04fN_YBLQlZzfWPG-13" target="bDKs04fN_YBLQlZzfWPG-8">
+        <mxCell id="bDKs04fN_YBLQlZzfWPG-17" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bDKs04fN_YBLQlZzfWPG-13">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="120" y="240" as="sourcePoint" />
-            <mxPoint x="120" y="140" as="targetPoint" />
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="330" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bDKs04fN_YBLQlZzfWPG-18" value="densidadPoblacional" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="50" width="160" height="100" as="geometry" />
+          <mxGeometry x="560" y="260" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bDKs04fN_YBLQlZzfWPG-19" value="+ Nhabitantes:int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bDKs04fN_YBLQlZzfWPG-18">
           <mxGeometry y="26" width="160" height="24" as="geometry" />
@@ -42,8 +45,8 @@
         </mxCell>
         <mxCell id="bDKs04fN_YBLQlZzfWPG-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="350" y="110" as="sourcePoint" />
-            <mxPoint x="195" y="110" as="targetPoint" />
+            <mxPoint x="560" y="319.5" as="sourcePoint" />
+            <mxPoint x="405" y="319.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
